@@ -1,0 +1,96 @@
+/* Start Font Import */
+
+@import url(https://fonts.googleapis.com/css?family=Outfit:400,700);
+
+/* End Font Import */
+
+
+/* Start Global Rules */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    height: 100vh;
+    text-align: center;
+}
+
+
+/* End Global Rules */
+
+
+/* Start Variables */
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+
+/* End Variables */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Light-gray);
+}
+
+.container {
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 497px;
+    padding: 1rem;
+    border-radius: 1.26rem;
+    box-shadow: hsl(218deg 44% 22% / 20%) 0px 7px 20px 5px;
+}
+
+.image-holder img {
+    width: 288px;
+    height: 288px;
+    border-radius: 1.26rem;
+    margin-bottom: 16px;
+}
+
+.brief h3 {
+    margin-bottom: 23px;
+    color: var(--Dark-blue);
+    font-size: 1.46rem;
+    line-height: 1.2;
+}
+
+.brief p {
+    font-size: 1rem;
+    color: var(--Grayish-blue);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+/* Start Attribution */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* End Attribution */
