@@ -27,8 +27,3 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-## Author
-
-- Frontend Mentor - [@Z-ayat](https://www.frontendmentor.io/profile/Z-ayat)
-- Twitter - [@AliElZayat9](https://twitter.com/AliElZayat9)
